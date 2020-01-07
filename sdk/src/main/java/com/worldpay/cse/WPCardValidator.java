@@ -39,7 +39,7 @@ class WPCardValidator {
     private static final String EX_MONTH_PATTERN = "^[0-9]{2}$";
     private static final String EX_YEAR_PATTERN = "^[0-9]{4}$";
     private static final String CARD_NUMBER_PATTERN = "[0-9]{12,20}";
-    private static final String CARD_HOLDER_PATTERN = "^.{1,30}$";
+    private static final String CARD_HOLDER_PATTERN = "^.{1,80}$";
     private static final String CVC_PATTERN = "^[0-9]{3,4}$";
 
     private static final int MAX_SINGLE_DIGIT_NUMBER = 9;
